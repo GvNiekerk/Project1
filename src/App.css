@@ -1,23 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 .App {
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .names {
+    animation: Name-Enter 1 2s linear;
+    text-align: left;
+    letter-spacing: 5px;
+  }
+  .lastNames {
+    animation: Last-Name-Enter 1 2s linear;
+    text-align: left;
+    letter-spacing: 5px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Name-Header{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  text-align: left !important;
+  line-height: 0 !important;
+}
+
+.Menu-Header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.Light-Section{
+  background-color: #383838;
+  padding: 100px;
+}
+
+.hor-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Dark-Section{
+  background-color: #242424;
+  min-height: 1000px;
+  width: 100%;
+}
+
+.Menu-Text{
+  font-weight: 300;
+  font-size: 25px;
+  margin: auto;
+  min-width: 150px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.App-header {
+  background-color: #242424;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -28,11 +83,21 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+
+@keyframes Name-Enter {
   from {
-    transform: rotate(0deg);
+    letter-spacing: -10px;
   }
   to {
-    transform: rotate(360deg);
+    letter-spacing: 5px;
+  }
+}
+
+@keyframes Last-Name-Enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
