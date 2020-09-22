@@ -35,13 +35,8 @@ function App() {
             ABOUT
         </h1>
           <p style={{lineHeight: 1.5, maxWidth: 600, color: "white"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut eget bibendum odio. Nam sit amet eros malesuada, pretium est sit amet,
-            pulvinar turpis. Phasellus odio est, eleifend eget nisi ac,
-            vestibulum scelerisque purus. Aliquam interdum diam erat, at ullamcorper tortor
-            facilisis eget. Nunc ornare, nulla at egestas fringilla, odio est vulputate tortor,
-            sed sagittis sem nunc non tellus. Morbi congue, augue sed sodales lobortis, eros nibh
-            imperdiet sapien, vitae tristique eros quam ut tortor. Fusce metus justo, placerat quis
+            I started getting an interest in computers at a young age playing games with my brothers
+            wararararar akkedis kobus
           </p>
         </div>
       </div>
