@@ -45,6 +45,7 @@ function App() {
       </div>
       <div id="contact" className="Light-Section">
         <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45 }}>CONTACT</h1>
+        <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 35 }}>PLEASE ENTER YOUR NAME AND EMAIL AND I WILL CONTACT YOU</h1>
       </div>
     </div>
   );
