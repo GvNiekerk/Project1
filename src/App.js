@@ -48,7 +48,7 @@ function App() {
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>EXPERIENCE</h1>
       </div>
       <div id="projects" className="Light-Section">
-        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45, minHeight : 1000 }}>PROJECTS</h1>
+        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45, padding : 10 }}>PROJECTS</h1>
       </div>
       <div id="contact" className="Dark-Section">
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>CONTACT</h1>
