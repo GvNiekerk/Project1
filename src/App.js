@@ -35,8 +35,9 @@ function App() {
             ABOUT
         </h1>
           <p style={{lineHeight: 1.5, maxWidth: 600, color: "white"}}>
-            I started getting an interest in computers at a young age playing games with my brothers
-            wararararar akkedis kobus
+            I am currently in my final year of study for a Bachelors of Science in Information Technology.
+            I have always had an interest in computers as my brothers taught me to play with them at a young age.
+            My hobbies include gaming, excercise, playing guitar, making jewelry and other trinkets and occasionally snorkelling.
           </p>
         </div>
       </div>
