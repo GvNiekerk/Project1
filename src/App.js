@@ -46,9 +46,14 @@ function App() {
       </div>
       <div id="experience" className="Dark-Section">
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>EXPERIENCE</h1>
+        <p style={{lineHeight: 1.5, maxWidth: 600, color: "white"}}>
+          I spent approximately three weeks working as a landmeter for doing 3d laser scans of various buildings.
+          I spent a week job shadowing at Signiflow digital signatures in their development department https://signiflow.com/.
+          I was a supervisor and barman for 6 weeks at a christmas market at the Walter Sisulu Botanical gardens organised by Event Ladies http://eventladiessa.co.za/.
+        </p>
       </div>
       <div id="projects" className="Light-Section">
-        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45, width : 100, minHeight : 500 }}>PROJECTS</h1>
+        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45 }}>PROJECTS</h1>
       </div>
       <div id="contact" className="Dark-Section">
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>CONTACT</h1>
