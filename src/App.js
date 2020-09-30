@@ -36,7 +36,7 @@ function App() {
         </h1>
           <p style={{lineHeight: 1.5, maxWidth: 600, color: "white"}}>
             I am currently in my final year of study for a Bachelors of Science in Information Technology at the North West University Potchefstroom Campus.
-            I have always had an interest in computers as my brothers taught me to play with them at a young age.
+            I have always had an interest in computers as my brothers taught me to play games with them at a young age.
             My hobbies include gaming, excercise, playing guitar, making jewelry and other trinkets and occasionally snorkeling.
             I started my studies with a year of Engineering after which I realised that it was not something I wanted to do, Information
             Technology interested me as I had already been using computers for most of my life and IT is much more versatile in the sense of
@@ -44,11 +44,11 @@ function App() {
           </p>
         </div>
       </div>
-      <div id="projects" className="Dark-Section">
+      <div id="experience" className="Dark-Section">
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>EXPERIENCE</h1>
       </div>
       <div id="projects" className="Light-Section">
-        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45 }}>PROJECTS</h1>
+        <h1 className="Menu-Header" style={{ color: "#c60f0f", fontSize: 45, padding: 30 }}>PROJECTS</h1>
       </div>
       <div id="contact" className="Dark-Section">
         <h1 className="Menu-Header" style={{ color: "#FFFFFF", fontSize: 45 }}>CONTACT</h1>
