@@ -31,6 +31,36 @@
   line-height: 0 !important;
 }
 
+.Form-Style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+}
+
+.Form-Input{
+  background-color: #0e0e0e;
+    min-width: 400px;
+    margin: 10px auto;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.Form-Submit{
+  background-color: rgb(198, 15, 15);
+    border: none;
+    min-width: 400px;
+    height: 40px;
+    margin: 10px 0 30px 0;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px #00000070;
+}
+
 .Menu-Header{
   display: flex;
   flex-direction: row;
@@ -49,13 +79,23 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .Dark-Section{
   background-color: #242424;
-  min-height: 1000px;
   width: 100%;
+}
+
+a{
+  color: #c60f0f;
+}
+
+.Project-Row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .Menu-Text{
