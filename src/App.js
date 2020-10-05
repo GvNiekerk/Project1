@@ -183,7 +183,7 @@ function App() {
         <hr style={{backgroundColor: "black", borderColor: "black"}}/>
         <div className="Project-Row">
           <Project title="East Coast Adventures" screenshot = {Project1Screenshot} link="https://github.com/GvNiekerk/East-Coast-Adventures" />
-          <Project title="Randburg Strength and Fitness" screenshot = {Project2Screenshot} />
+          <Project title="Randburg Strength and Fitness" screenshot = {Project2Screenshot} link="https://github.com/ivansnyman/Finale-Projek-V2.0"/>
           <Project title="Vanilla Encryption" screenshot = {Project3Screenshot} link="https://github.com/GvNiekerk/Vanilla-Encryption"/>
         </div>
       </div>
@@ -197,3 +197,7 @@ function App() {
 }
 
 export default App;
+
+
+//"start": "react-scripts start", for dev
+//"start": "serve -s build", for heroku
