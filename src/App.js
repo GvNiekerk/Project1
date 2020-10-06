@@ -24,7 +24,8 @@ function App() {
       this.SendEmail = this.SendEmail.bind(this);
     }
 
-    SendEmail(){
+    SendEmail(event){
+      event.preventDefault();
       var templateParams = {
         name: this.state.Fullname,
         message: this.state.Message,
@@ -33,21 +34,30 @@ function App() {
 
       emailjs.send("Bx3lqCRk5ZkrXvrOPhtWhCgO", "template_vlzuivs", templateParams, "user_hpY3PtSjAxXEssBdYBHV9")
       .then(function(response){
+        alert("Thank you, I will get back to you as soon as possible.")
         console.log("Yas bra")
       }, function(error){
         console.log("nee werk nie")
       });
-
+      this.setState({
+        Fullname : "",
+        Email : "",
+        Message : ""
+      });
     }
+
     handleNameChange(event) {
       this.setState({Fullname: event.target.value});
     }
+
     handleEmailChange(event) {
       this.setState({Email: event.target.value});
     }
+
     handleMessageChange(event) {
       this.setState({Message: event.target.value});
     }
+
     render() {
       return (
       <div className = "Form-Style">
